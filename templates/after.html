@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>result</title>
+    <link rel="stylesheet" type="text/css" href='/static/after.css'>
+</head>
+
+<body>
+
+    <h1>Prediction: </h1>
+    {%if data==0%}
+    <h1> No Risk</h1>
+    {%else%}
+    <h1> Risk</h1>
+    {%endif%}
+    <br><br>
+    <br><br><a href="/">Go back to home page</a>
+</body>
+
+</html>
